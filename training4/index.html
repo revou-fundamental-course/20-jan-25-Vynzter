@@ -5,8 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Kevin</title>
+
+    <!--Internal CSS-->
+    <style>
+        header {
+            background-color: blue;
+        }
+
+        .main-header {
+            background-color: green;
+        }
+
+    </style>
+
+    <!--External CSS-->
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    
+   <header>
+        <h1>Title</h1>
+   </header>
+   <main>
+        <header class="main-header">
+            <h2>Title</h2>
+        </header>
+
+        <header class="main-header" id="unique-main-header">
+            <h2>Title</h2>
+        </header>
+
+        <p>Lorem Ipsum Dolor Sit Amet Adipiscing...</p>
+   </main>
+
+   <!--Inline CSS-->
+   <footer style="background-color: red;">
+        <span>footer</span>
+   </footer>
 </body>
 </html>
