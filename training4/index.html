@@ -9,9 +9,15 @@
     <!--Internal CSS-->
     <style>
         header {
-            background-color: blue;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: space-between;
         }
-
+        header>h1 {
+            border: 1px solid black;
+            font-family: monospace;
+            color: crimson;
+        }
         .main-header {
             background-color: green;
         }
@@ -22,8 +28,18 @@
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
+    <header>
+        <h1>Kiri</h1>
+        <h1>Kanan</h1>
+    </header>
+
    <header>
-        <h1>Title</h1>
+        <h1 style="
+            border-top-width: 10px;
+            padding-top: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        ">Title</h1>
    </header>
    <main>
         <header class="main-header">
