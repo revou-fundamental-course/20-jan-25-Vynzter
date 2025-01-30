@@ -50,16 +50,13 @@ button {
     border-radius: 4px;
 }
 
-.bg-cadet-blue {
+.bg-calculateButton {
     background-color: cadetblue;
-}
-
-.bg-alice-blue {
-    background-color: red;
-}
-
-.color-antique-white {
     color: antiquewhite;
+}
+
+.bg-resetButton {
+    background-color: aliceblue;
 }
 
 /*resposive*/
