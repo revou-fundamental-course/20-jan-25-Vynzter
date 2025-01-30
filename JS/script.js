@@ -37,13 +37,13 @@ const validateInput = (weight, height, age, gender) => {
     }
 
     // Validate body weight
-    if (isNaN(body-weight) || weight <= 0) {
+    if (isNaN(weight) || weight <= 0) {
     weightErrorMessage.innerText = 'Berat badan harus berupa angka lebih dari 0';
     isValid = false;
     }
 
     // Validate body height
-    if (isNaN(body-height) || height <= 0) {
+    if (isNaN(height) || height <= 0) {
     heightErrorMessage.innerText = 'Tinggi badan harus berupa angka lebih dari 0';
     isValid = false;
     }
