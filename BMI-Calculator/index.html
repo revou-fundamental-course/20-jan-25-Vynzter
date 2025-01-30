@@ -3,9 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BMI Calculator</title>
+    <title>Mini BMI Calculator </title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
-    
+    <!--Website Title-->
+    <header class="main-header">
+        <h1>BMI Calculator</h1>
+    </header>   
+
+    <!--Website Content-->
+    <main>
+        <!--BMI Calculator Section Form-->
+        <section class="main-section">
+            <!--Main Article-->
+            <article>
+                <p>Ideal body weight is everyone's dream. Not only does having a body shape that supports your appearance, ideal body weight also indicates a healthy body condition. How about you? Come on, calculate it now on the BMI Calculator!</p>
+            </article>
+
+            <!--Main Form-->
+            <form>
+                <div class="form-item">
+                    <label for="body-weight-input">
+                        Body Weight (kg):
+                    </label>
+                    <input type="number" id="body-weight-input" required/>
+                </div>
+                
+                <div class="form-item">
+                    <label for="age-input">
+                        Age (year):
+                    </label>
+                    <input type="number" id="age-input" required/>
+                </div>
+
+                <div class="form-item">
+                    <label for="body-height-input">
+                        Body Height (cm):
+                    </label>
+                    <input type="number" id="body-height-input" required/>
+                </div>
+
+                <div class="form-button-container">
+                    <button type="button" class="bg-cadet-blue color-antique-white" onclick="validateForm();">Calculate BMI</button>
+                    <button class="bg-alice-blue">Reset</button>
+                </div>
+            </form>
+
+            <!--Second Article-->
+            <article>
+                <header>
+                    <h3>Feature Advantages</h3>
+                    <ol>1.</ol>
+                    <ol>2.</ol>
+                    <ul>3.</ul>
+                </header>
+                
+                <p>Lorem ipsum------</p>
+            </article>
+        </section>
+
+        <!--Calculation Result Section-->
+        <section class="main-section">
+            <div>
+                <header>
+                    <h2>Result</h2>
+                </header>
+
+                <p>Berat badan lebih</p>
+
+                <div id="result-calculation">0</div>
+
+                <p id="info-result">Anda memiliki berat badan</p>
+            </div>
+
+            <!--Third Article-->
+            <article>
+                <p>lorem ipsum------</p>
+            </article>
+        </section>
+    </main>
+
+    <!--Website Footer-->
+    <footer>
+        <p>Made by Kevin Ho @2025</p>
+    </footer>
+
+    <script src="JS/script.js"></script>
 </body>
+
 </html>
